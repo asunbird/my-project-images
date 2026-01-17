@@ -46,3 +46,33 @@ body {
     margin-top: 10px;
     height: auto;
 }
+
+.all-button:hover {
+    cursor: pointer;
+}
+
+.all-button {
+  margin-top: 20px;
+  justify-content: center;
+  width: max-content;
+  height: 40px;
+  color: #FFB85F;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+input[type="submit" i] {
+    cursor: pointer;
+    appearance: unset;
+    user-select: none;
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #1C346A;
+    border-color: #FFB85F;
+    border: 1px solid;
+    border-radius: 3px;
+}
