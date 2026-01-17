@@ -1,4 +1,4 @@
-/* Project links */
+/* General Project links */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
@@ -22,24 +22,7 @@ body {
     font-size: 16px;
 }
 
-/* Media Queries for responsiveness */
-@media (max-width: 600px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 22vh 22vh 22vh 22vh 22vh 22vh;
-   }
-  .grid-cell {
-    padding: 3vw;
-    text-align: center;
-    margin: 0.5vw;
-    border-color: #FFB85F;
-    color: #FFB85F;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-  }
-}
-
+/* Project-image container on the project pages */
 .project-image {
     display: block;
     text-align: center;
@@ -61,6 +44,7 @@ body {
     background-position: center;
 }
 
+/* Button style */
 .all-button:hover {
     cursor: pointer;
 }
@@ -89,4 +73,22 @@ input[type="submit" i] {
     border-color: #FFB85F;
     border: 1px solid;
     border-radius: 3px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 22vh 22vh 22vh 22vh 22vh 22vh;
+   }
+  .grid-cell {
+    padding: 3vw;
+    text-align: center;
+    margin: 0.5vw;
+    border-color: #FFB85F;
+    color: #FFB85F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
 }
