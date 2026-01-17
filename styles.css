@@ -1,9 +1,18 @@
 /* Projact links */
 .grid {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 1fr 1fr;
     border: 1px solid;
     border-radius: 3px;
     padding: 2vw;
     text-align: center;
+    margin: 0.5vw;
+    border-color: #FFB85F;
+    color: #FFB85F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1C346A;
 }
