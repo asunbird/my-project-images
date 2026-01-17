@@ -26,12 +26,11 @@ body {
 .project-image {
     display: block;
     text-align: center;
-    padding-top: 40vh;
     color: rgba(34.6 12 64 / 60%);
     font-size: 2rem;
     width: 100%;
     margin-top: 10px;
-    height: 60vw;
+    height: 90vh;
     border: 1px solid #FFB85F;
     border-radius: 6px;
     background-image: linear-gradient(
