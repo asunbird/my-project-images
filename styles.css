@@ -7,7 +7,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 48% 48%;
-    grid-template-rows: 40vh 40vh;
+    grid-template-rows: 40vh 40vh 40vh;
 }
 .grid-cell {
     display: block;
@@ -27,7 +27,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 22vh 22vh 22vh 22vh;
+    grid-template-rows: 22vh 22vh 22vh 22vh 22vh 22vh;
    }
   .grid-cell {
     padding: 3vw;
