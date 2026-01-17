@@ -45,6 +45,9 @@ body {
     width: 100%;
     margin-top: 10px;
     height: auto;
+    border-color: #FFB85F;
+    border: 1px solid;
+    border-radius: 6px;
 }
 
 .all-button:hover {
