@@ -23,6 +23,7 @@ body {
 }
 a {
   color: #FFB85F;
+  text-decoration: none;
 }
 
 /* Project-image container on the project pages */
