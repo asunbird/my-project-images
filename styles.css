@@ -1,1 +1,9 @@
-/*  */
+/* Projact links */
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2vw;
+    text-align: center;
+}
