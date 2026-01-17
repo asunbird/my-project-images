@@ -1,8 +1,14 @@
-/* Projact links */
+/* Project links */
+body {
+    background-color: #1C346A;
+}
 .grid {
     display: grid;
     grid-template-columns: 48% 48%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+}
+.grid-cell {
+    display: block;
     border: 1px solid;
     border-radius: 3px;
     padding: 2vw;
@@ -11,8 +17,23 @@
     border-color: #FFB85F;
     color: #FFB85F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
 
-body {
-    background-color: #1C346A;
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 22vh 22vh 22vh 22vh;
+   }
+  .grid-cell {
+    padding: 3vw;
+    text-align: center;
+    margin: 0.5vw;
+    border-color: #FFB85F;
+    color: #FFB85F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
 }
